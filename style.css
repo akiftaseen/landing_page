@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "roboto";
+}
+
+.header {
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding: 10px 150px;
+}
+
+.header p {
+    font-weight: bold;
+}
+
+.inside-header {
+    display: flex;
+    gap: 20px;
+}
+
+.header, .hero-text {
+    display: flex;
+    align-items: center;
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+.hero-text {   
+    padding: 40px 150px;
+    gap: 50px;
+    text-align: left;
+}
+
+.hero-text h3 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.head-image {
+    width: 400px;
+}
+
+.pics {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.pic {
+    width: 200px;
+}
+
+img {
+    width: 200px;
+    border-radius: 14px;
+}
+
+h4 {
+    margin: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 300px;
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.eminem {
+    text-align: right;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.call {
+    background-color: #3882f6;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 100px 150px;
+    border-radius: 15px;
+    text-align: left;
+    color: white;
+}
+
+.call-bold {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.inside-call p {
+    margin: 10px;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 7px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-style: none;
+}
+
+.call button {
+    border-color: white;
+    border-style: solid;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 30px;
+}
